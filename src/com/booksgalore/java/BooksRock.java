@@ -27,6 +27,7 @@ public class BooksRock {
                 continue;
             } else {bookLoop = false;
             }
+            awesomeReading();
         } while (bookLoop);
     }
 
@@ -42,5 +43,8 @@ public class BooksRock {
         in.nextLine();
         }
 
+        public static void awesomeReading() {
+        System.out.println("Reading is awesome!");
+    }
 }
 
